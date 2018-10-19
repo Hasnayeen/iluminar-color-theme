@@ -1,0 +1,30 @@
+{
+  "name": "iluminar",
+  "version": "1.0.0",
+  "description": "VSCode color theme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Nehal Hasnayeen",
+    "email": "searching.nehal@gmail.com",
+    "url": "https://hasnayeen.github.io"
+  },
+  "license": "MIT",
+  "publisher": "iluminar",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Iluminar",
+        "uiTheme": "vs",
+        "path": "./themes/iluminar.json"
+      }
+    ]
+  }
+}
